@@ -1,5 +1,6 @@
 These set of scripts do
 1- enable password-less ssh access to a given machine (ssh_copy_id.sh)
 2- install chef binary in a machine in such a way that it can be later provisioned with Chef recipes (install_chef.sh)
+NOTE: You need download the chef__amd64.deb file (https://www.dropbox.com/s/op0u1pq4x0oks5v/chef__amd64.deb) before to run the install_chef.sh script otherwise an error will be raised
 
 preparing-machine.sh invokes the aforementioned scripts.
