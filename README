@@ -1,0 +1,5 @@
+These set of scripts do
+1- enable password-less ssh access to a given machine (ssh_copy_id.sh)
+2- install chef binary in a machine in such a way that it can be later provisioned with Chef recipes (install_chef.sh)
+
+preparing-machine.sh invokes the aforementioned scripts.
