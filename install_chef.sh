@@ -28,6 +28,7 @@ if [ ! $? = 0 ]; then
 	if [ "x$distro" == "xubuntu" ];  then
 		ssh ${2} sudo apt-get install rsync
 	else
+		ssh ${2} sudo yum check-update
 		ssh ${2} sudo yum install rsync -y
 	fi
 
